@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Your settings, state and logs (they hold your TV's address and your file paths)
+config.json
+state.json
+logs/
+cookies.txt
+airplay_credentials.txt
+
+# Made by install.py for this PC
+tv.cmd
+
+# Downloaded by install.py and tv-helper/build.py (adb, yt-dlp, Android build kit)
+tools/
+
+# Helper app: build output, the local signing key and the downloaded photos
+tv-helper/build/
+tv-helper/tv-helper.apk
+tv-helper/photos/
+*.p12
+*.jks
+*.keystore
