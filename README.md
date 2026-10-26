@@ -4,6 +4,12 @@ Play videos from your Windows PC on a Fire TV: right-click a file and choose **S
 remote page from your phone. No casting protocol and no app to build for the video itself. The PC serves the
 file over HTTP (with range requests, so seeking works) and tells VLC on the TV to open it, over network adb.
 
+<p align="center">
+  <img src="docs/images/remote.png" alt="The remote page on a phone, in light and dark mode: play controls, a link box and a list of videos" width="600">
+</p>
+
+<p align="center"><img src="docs/images/how-it-works.svg" alt="Your phone or right-click menu tells the server on your PC what to play; the PC streams the video to VLC on the Fire TV over HTTP and controls it over adb" width="780"></p>
+
 - Right-click menu for video files (Windows 11: under "Show more options").
 - Remote page on your phone or laptop: play, pause, seek, volume, library of recent videos.
 - Links from YouTube and the other sites yt-dlp supports, no ads. Paste one into the remote page, or share it
